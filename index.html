@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <div class="container">  
+        <form id="testForm" name="testForm" action="" method="post" novalidate="novalidate">
+          <h3>Innoscripta Form</h3>
+          <div class="wrapper">
+            <div class="one">
+                <div class="inputForm">
+                    <input type="text" name="vorname" id="vorname" required="required" value="" />
+                    <label>Vorname</label>
+                </div>
+            </div>
+            <div class="two">
+                <div class="inputForm">
+                    <input type="text" name="Nachname" id="Nachname" required="required" value="" />
+                    <label>Nachname</label>
+                </div>
+            </div>
+            <div class="three">
+                    <div class="inputForm">
+                        <input type="text" name="strae" id="strae" required="required" value="" />
+                        <label>Straße</label>
+                    </div>
+            </div>
+            <div class="four">
+                    <div class="inputForm">
+                        <input type="text" required="required" value="" />
+                        <label>Haus No.</label>
+                    </div>
+            </div>
+            <div class="five">
+                    <div class="inputForm">
+                        <input type="text" id="plz" name="plz" required="required" value="" />
+                        <label>PLZ</label>
+                    </div>
+            </div>
+            <div class="six">
+                    <div class="inputForm">
+                        <input type="text" id="ort" name="ort" required="required" value="" />
+                        <label>Ort</label>
+                    </div>
+            </div>
+            <div class="seven">
+                    <div class="inputForm">
+                <select name="telephoneCode">
+                    <option value="0151">0151</option>
+                    <option value="0152">0152</option>
+                </select>
+                </div>
+            </div>
+            <div class="eight">
+                    <div class="inputForm">
+                        <input type="text" id="tel" name="tel" required="required" value="" />
+                        <label>Mobile Telefonnummer</label>
+                    </div>
+            </div>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </div>         
+        </form>
+      </div>
+      <script src="./index.js"></script>
+    </body>
+</html>
